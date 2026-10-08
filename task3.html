@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UET Mardan Student Activities Portal</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            background-color: #064420;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: white !important;
+        }
+
+        .nav-link:hover {
+            color: #ffc107 !important;
+        }
+
+        .hero {
+            background-color: #e9f5ee;
+            padding: 60px 0;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .section-title h2 {
+            font-weight: bold;
+            color: #064420;
+        }
+
+        .event-card {
+            height: 100%;
+        }
+
+        .event-card img {
+            height: 190px;
+            object-fit: cover;
+        }
+
+        .about {
+            background-color: white;
+        }
+
+        .registration {
+            background-color: #e9f5ee;
+        }
+
+        footer {
+            background-color: #064420;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                UET Mardan Portal
+            </a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#events">Events</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#registration">Registration</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section id="home" class="hero">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6">
+
+                    <h1 class="display-5 fw-bold">
+                        UET Mardan Student Activities Portal
+                    </h1>
+
+                    <p class="lead mt-3">
+                        Welcome to the student activities portal of UET Mardan.
+                        Explore upcoming events, competitions, workshops and
+                        other student activities.
+                    </p>
+
+                    <a href="#events" class="btn btn-success">
+                        Explore Events
+                    </a>
+
+                </div>
+
+                <div class="col-md-6 mt-4 mt-md-0">
+
+                    <img src="images (6).jfif"
+                        alt="University Students">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="about" class="about py-5">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>About Student Activities</h2>
+
+            </div>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-9">
+
+                    <p class="text-center">
+                        The UET Mardan Student Activities Portal is designed
+                        to provide students with information about university
+                        events and activities. Students can check upcoming
+                        programs, view event schedules and register for
+                        activities through this portal.
+                    </p>
+
+                    <p class="text-center">
+                        The portal encourages students to participate in
+                        academic, technical, sports and social activities
+                        and helps them develop skills outside the classroom.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="events" class="py-5">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Upcoming Events</h2>
+
+                <p>
+                    Check out some of the upcoming activities at UET Mardan.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card event-card shadow-sm">
+
+                        <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=600&q=80"
+                            class="card-img-top"
+                            alt="Seminar">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Tech Seminar
+                            </h5>
+
+                            <p class="card-text">
+                                A seminar where students can learn about
+                                modern technology and career opportunities.
+                            </p>
+
+                            <button class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#seminarModal">
+                                View Details
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card event-card shadow-sm">
+
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80"
+                            class="card-img-top"
+                            alt="Programming Competition">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Programming Competition
+                            </h5>
+
+                            <p class="card-text">
+                                Students will solve programming problems
+                                and compete with other participants.
+                            </p>
+
+                            <button class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#programmingModal">
+                                View Details
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card event-card shadow-sm">
+
+                        <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=600&q=80"
+                            class="card-img-top"
+                            alt="Sports Day">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Sports Day
+                            </h5>
+
+                            <p class="card-text">
+                                A fun sports event where students can
+                                participate in different games and activities.
+                            </p>
+
+                            <button class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#sportsModal">
+                                View Details
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card event-card shadow-sm">
+
+                        <img src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=600&q=80"
+                            class="card-img-top"
+                            alt="Workshop">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Web Development Workshop
+                            </h5>
+
+                            <p class="card-text">
+                                A practical workshop covering basic
+                                web development concepts and tools.
+                            </p>
+
+                            <button class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#workshopModal">
+                                View Details
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="schedule" class="py-5 bg-white">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Event Schedule</h2>
+
+                <p>
+                    Schedule of upcoming student activities.
+                </p>
+
+            </div>
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered table-striped table-hover">
+
+                    <thead class="table-success">
+
+                        <tr>
+                            <th>Event Name</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Venue</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Tech Seminar</td>
+                            <td>15 October 2026</td>
+                            <td>10:00 AM</td>
+                            <td>Seminar Hall</td>
+                        </tr>
+
+                        <tr>
+                            <td>Programming Competition</td>
+                            <td>20 October 2026</td>
+                            <td>11:00 AM</td>
+                            <td>Computer Lab</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sports Day</td>
+                            <td>25 October 2026</td>
+                            <td>9:00 AM</td>
+                            <td>University Ground</td>
+                        </tr>
+
+                        <tr>
+                            <td>Web Development Workshop</td>
+                            <td>30 October 2026</td>
+                            <td>12:00 PM</td>
+                            <td>IT Lab</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="registration" class="registration py-5">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Student Event Registration</h2>
+
+                <p>
+                    Fill out the form to register for an event.
+                </p>
+
+            </div>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-8">
+
+                    <form class="bg-white p-4 rounded shadow-sm">
+
+                        <div class="mb-3">
+
+                            <label for="name" class="form-label">
+                                Full Name
+                            </label>
+
+                            <input type="text"
+                                id="name"
+                                class="form-control"
+                                placeholder="Enter your full name"
+                                required>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label for="email" class="form-label">
+                                Email
+                            </label>
+
+                            <input type="email"
+                                id="email"
+                                class="form-control"
+                                placeholder="Enter your email"
+                                required>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label for="department" class="form-label">
+                                Department
+                            </label>
+
+                            <select id="department" class="form-select">
+
+                                <option selected>
+                                    Select Department
+                                </option>
+
+                                <option>
+                                    Computer Science
+                                </option>
+
+                                <option>
+                                    Electrical Engineering
+                                </option>
+
+                                <option>
+                                    Civil Engineering
+                                </option>
+
+                                <option>
+                                    Mechanical Engineering
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label for="event" class="form-label">
+                                Select Event
+                            </label>
+
+                            <select id="event" class="form-select">
+
+                                <option selected>
+                                    Select Event
+                                </option>
+
+                                <option>
+                                    Tech Seminar
+                                </option>
+
+                                <option>
+                                    Programming Competition
+                                </option>
+
+                                <option>
+                                    Sports Day
+                                </option>
+
+                                <option>
+                                    Web Development Workshop
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Gender
+                            </label>
+
+                            <div>
+
+                                <div class="form-check form-check-inline">
+
+                                    <input class="form-check-input"
+                                        type="radio"
+                                        name="gender"
+                                        id="male"
+                                        value="Male">
+
+                                    <label class="form-check-label" for="male">
+                                        Male
+                                    </label>
+
+                                </div>
+
+                                <div class="form-check form-check-inline">
+
+                                    <input class="form-check-input"
+                                        type="radio"
+                                        name="gender"
+                                        id="female"
+                                        value="Female">
+
+                                    <label class="form-check-label" for="female">
+                                        Female
+                                    </label>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label for="message" class="form-label">
+                                Message
+                            </label>
+
+                            <textarea id="message"
+                                class="form-control"
+                                rows="4"
+                                placeholder="Write your message"></textarea>
+
+                        </div>
+
+                        <button type="submit" class="btn btn-success">
+                            Register Now
+                        </button>
+
+                        <button type="reset" class="btn btn-secondary">
+                            Reset
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="py-5 bg-white">
+
+        <div class="container text-center">
+
+            <h2 class="text-success">
+                Contact
+            </h2>
+
+            <p>
+                Email: studentportal@uetmardan.edu.pk
+            </p>
+
+            <p>
+                UET Mardan, Khyber Pakhtunkhwa, Pakistan
+            </p>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p class="mb-0">
+            © 2026 UET Mardan Student Activities Portal
+        </p>
+
+    </footer>
+
+    <div class="modal fade" id="seminarModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Tech Seminar
+                    </h5>
+
+                    <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    Tech Seminar will provide students with information
+                    about modern technology and career opportunities.
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="programmingModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Programming Competition
+                    </h5>
+
+                    <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    Students will solve programming problems and
+                    compete with other participants.
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="sportsModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Sports Day
+                    </h5>
+
+                    <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    Students can participate in different games
+                    and sports activities.
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="workshopModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Web Development Workshop
+                    </h5>
+
+                    <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    This workshop covers basic web development
+                    concepts and tools.
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+<!-- Complete Source Code -->
+<section class="container-fluid bg-dark text-white py-5">
+    <h2 class="text-center mb-4">Complete Source Code</h2>
+
+    <pre class="bg-black text-white p-4 rounded"
+         style="white-space: pre-wrap; overflow-x: auto;">
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+
+    &lt;title&gt;UET Mardan Student Activities Portal&lt;/title&gt;
+
+    &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"&gt;
+
+    &lt;style&gt;
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .hero {
+            background-color: #f8f9fa;
+        }
+
+        .hero img {
+            max-height: 350px;
+            object-fit: cover;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .event-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;!-- Navigation Bar --&gt;
+    &lt;nav class="navbar navbar-expand-lg navbar-dark bg-success"&gt;
+        &lt;div class="container"&gt;
+
+            &lt;a class="navbar-brand fw-bold" href="#"&gt;
+                UET Mardan Portal
+            &lt;/a&gt;
+
+            &lt;button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"&gt;
+                &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+            &lt;/button&gt;
+
+            &lt;div class="collapse navbar-collapse" id="navbarNav"&gt;
+                &lt;ul class="navbar-nav ms-auto"&gt;
+
+                    &lt;li class="nav-item"&gt;
+                        &lt;a class="nav-link" href="#home"&gt;Home&lt;/a&gt;
+                    &lt;/li&gt;
+
+                    &lt;li class="nav-item"&gt;
+                        &lt;a class="nav-link" href="#about"&gt;About&lt;/a&gt;
+                    &lt;/li&gt;
+
+                    &lt;li class="nav-item"&gt;
+                        &lt;a class="nav-link" href="#events"&gt;Events&lt;/a&gt;
+                    &lt;/li&gt;
+
+                    &lt;li class="nav-item"&gt;
+                        &lt;a class="nav-link" href="#schedule"&gt;Schedule&lt;/a&gt;
+                    &lt;/li&gt;
+
+                    &lt;li class="nav-item"&gt;
+                        &lt;a class="nav-link" href="#registration"&gt;Registration&lt;/a&gt;
+                    &lt;/li&gt;
+
+                    &lt;li class="nav-item"&gt;
+                        &lt;a class="nav-link" href="#contact"&gt;Contact&lt;/a&gt;
+                    &lt;/li&gt;
+
+                &lt;/ul&gt;
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+    &lt;/nav&gt;
+
+
+    &lt;!-- Hero Section --&gt;
+    &lt;section id="home" class="hero py-5"&gt;
+
+        &lt;div class="container"&gt;
+
+            &lt;div class="row align-items-center"&gt;
+
+                &lt;div class="col-md-6"&gt;
+                    &lt;h1 class="display-4 fw-bold"&gt;
+                        UET Mardan Student Activities Portal
+                    &lt;/h1&gt;
+
+                    &lt;p class="lead"&gt;
+                        Discover university events, activities,
+                        competitions and student programs.
+                    &lt;/p&gt;
+
+                    &lt;a href="#events" class="btn btn-success"&gt;
+                        Explore Events
+                    &lt;/a&gt;
+                &lt;/div&gt;
+
+                &lt;div class="col-md-6 mt-4 mt-md-0"&gt;
+                    &lt;img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
+                         class="img-fluid rounded"
+                         alt="University Students"&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+
+    &lt;/section&gt;
+
+
+    &lt;!-- About Section --&gt;
+    &lt;section id="about" class="py-5"&gt;
+
+        &lt;div class="container"&gt;
+
+            &lt;h2 class="text-center section-title"&gt;
+                About Us
+            &lt;/h2&gt;
+
+            &lt;p class="text-center"&gt;
+                The UET Mardan Student Activities Portal provides
+                students with information about university events,
+                competitions, seminars and other activities.
+            &lt;/p&gt;
+
+        &lt;/div&gt;
+
+    &lt;/section&gt;
+
+
+    &lt;!-- Events Section --&gt;
+    &lt;section id="events" class="py-5 bg-light"&gt;
+
+        &lt;div class="container"&gt;
+
+            &lt;h2 class="text-center section-title"&gt;
+                Upcoming Events
+            &lt;/h2&gt;
+
+            &lt;div class="row g-4"&gt;
+
+                &lt;div class="col-md-6 col-lg-3"&gt;
+                    &lt;div class="card event-card h-100 shadow-sm"&gt;
+
+                        &lt;img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655"
+                             class="card-img-top"
+                             alt="Seminar"&gt;
+
+                        &lt;div class="card-body"&gt;
+                            &lt;h5 class="card-title"&gt;
+                                Tech Seminar
+                            &lt;/h5&gt;
+
+                            &lt;p class="card-text"&gt;
+                                Learn about modern technologies
+                                and career opportunities.
+                            &lt;/p&gt;
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+
+                &lt;div class="col-md-6 col-lg-3"&gt;
+                    &lt;div class="card event-card h-100 shadow-sm"&gt;
+
+                        &lt;img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87"
+                             class="card-img-top"
+                             alt="Sports"&gt;
+
+                        &lt;div class="card-body"&gt;
+                            &lt;h5 class="card-title"&gt;
+                                Sports Day
+                            &lt;/h5&gt;
+
+                            &lt;p class="card-text"&gt;
+                                Participate in exciting sports
+                                competitions and activities.
+                            &lt;/p&gt;
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+
+                &lt;div class="col-md-6 col-lg-3"&gt;
+                    &lt;div class="card event-card h-100 shadow-sm"&gt;
+
+                        &lt;img src="https://images.unsplash.com/photo-1511578314322-379afb476865"
+                             class="card-img-top"
+                             alt="Cultural Event"&gt;
+
+                        &lt;div class="card-body"&gt;
+                            &lt;h5 class="card-title"&gt;
+                                Cultural Festival
+                            &lt;/h5&gt;
+
+                            &lt;p class="card-text"&gt;
+                                Celebrate culture, traditions
+                                and student talent.
+                            &lt;/p&gt;
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+
+                &lt;div class="col-md-6 col-lg-3"&gt;
+                    &lt;div class="card event-card h-100 shadow-sm"&gt;
+
+                        &lt;img src="https://images.unsplash.com/photo-1556761175-b413da4baf72"
+                             class="card-img-top"
+                             alt="Workshop"&gt;
+
+                        &lt;div class="card-body"&gt;
+                            &lt;h5 class="card-title"&gt;
+                                Web Development Workshop
+                            &lt;/h5&gt;
+
+                            &lt;p class="card-text"&gt;
+                                Improve your web development
+                                skills through practical training.
+                            &lt;/p&gt;
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+
+    &lt;/section&gt;
+
+
+    &lt;!-- Event Schedule --&gt;
+    &lt;section id="schedule" class="py-5"&gt;
+
+        &lt;div class="container"&gt;
+
+            &lt;h2 class="text-center section-title"&gt;
+                Event Schedule
+            &lt;/h2&gt;
+
+            &lt;div class="table-responsive"&gt;
+
+                &lt;table class="table table-bordered table-striped table-hover"&gt;
+
+                    &lt;thead class="table-success"&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Event Name&lt;/th&gt;
+                            &lt;th&gt;Date&lt;/th&gt;
+                            &lt;th&gt;Time&lt;/th&gt;
+                            &lt;th&gt;Venue&lt;/th&gt;
+                        &lt;/tr&gt;
+                    &lt;/thead&gt;
+
+                    &lt;tbody&gt;
+
+                        &lt;tr&gt;
+                            &lt;td&gt;Tech Seminar&lt;/td&gt;
+                            &lt;td&gt;15 October 2026&lt;/td&gt;
+                            &lt;td&gt;10:00 AM&lt;/td&gt;
+                            &lt;td&gt;Main Auditorium&lt;/td&gt;
+                        &lt;/tr&gt;
+
+                        &lt;tr&gt;
+                            &lt;td&gt;Sports Day&lt;/td&gt;
+                            &lt;td&gt;18 October 2026&lt;/td&gt;
+                            &lt;td&gt;09:00 AM&lt;/td&gt;
+                            &lt;td&gt;Sports Ground&lt;/td&gt;
+                        &lt;/tr&gt;
+
+                        &lt;tr&gt;
+                            &lt;td&gt;Cultural Festival&lt;/td&gt;
+                            &lt;td&gt;22 October 2026&lt;/td&gt;
+                            &lt;td&gt;11:00 AM&lt;/td&gt;
+                            &lt;td&gt;University Hall&lt;/td&gt;
+                        &lt;/tr&gt;
+
+                        &lt;tr&gt;
+                            &lt;td&gt;Web Development Workshop&lt;/td&gt;
+                            &lt;td&gt;25 October 2026&lt;/td&gt;
+                            &lt;td&gt;02:00 PM&lt;/td&gt;
+                            &lt;td&gt;Computer Lab&lt;/td&gt;
+                        &lt;/tr&gt;
+
+                    &lt;/tbody&gt;
+
+                &lt;/table&gt;
+
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+
+    &lt;/section&gt;
+
+
+    &lt;!-- Registration Form --&gt;
+    &lt;section id="registration" class="py-5 bg-light"&gt;
+
+        &lt;div class="container"&gt;
+
+            &lt;h2 class="text-center section-title"&gt;
+                Student Event Registration
+            &lt;/h2&gt;
+
+            &lt;div class="row justify-content-center"&gt;
+
+                &lt;div class="col-md-8"&gt;
+
+                    &lt;form&gt;
+
+                        &lt;div class="mb-3"&gt;
+                            &lt;label class="form-label"&gt;
+                                Full Name
+                            &lt;/label&gt;
+
+                            &lt;input type="text"
+                                   class="form-control"
+                                   placeholder="Enter your full name"&gt;
+                        &lt;/div&gt;
+
+
+                        &lt;div class="mb-3"&gt;
+                            &lt;label class="form-label"&gt;
+                                Email
+                            &lt;/label&gt;
+
+                            &lt;input type="email"
+                                   class="form-control"
+                                   placeholder="Enter your email"&gt;
+                        &lt;/div&gt;
+
+
+                        &lt;div class="mb-3"&gt;
+                            &lt;label class="form-label"&gt;
+                                Department
+                            &lt;/label&gt;
+
+                            &lt;select class="form-select"&gt;
+
+                                &lt;option&gt;
+                                    Select Department
+                                &lt;/option&gt;
+
+                                &lt;option&gt;Computer Science&lt;/option&gt;
+                                &lt;option&gt;Electrical Engineering&lt;/option&gt;
+                                &lt;option&gt;Civil Engineering&lt;/option&gt;
+                                &lt;option&gt;Mechanical Engineering&lt;/option&gt;
+
+                            &lt;/select&gt;
+                        &lt;/div&gt;
+
+
+                        &lt;div class="mb-3"&gt;
+                            &lt;label class="form-label"&gt;
+                                Select Event
+                            &lt;/label&gt;
+
+                            &lt;select class="form-select"&gt;
+
+                                &lt;option&gt;Select Event&lt;/option&gt;
+                                &lt;option&gt;Tech Seminar&lt;/option&gt;
+                                &lt;option&gt;Sports Day&lt;/option&gt;
+                                &lt;option&gt;Cultural Festival&lt;/option&gt;
+                                &lt;option&gt;Web Development Workshop&lt;/option&gt;
+
+                            &lt;/select&gt;
+                        &lt;/div&gt;
+
+
+                        &lt;div class="mb-3"&gt;
+
+                            &lt;label class="form-label d-block"&gt;
+                                Gender
+                            &lt;/label&gt;
+
+                            &lt;div class="form-check form-check-inline"&gt;
+                                &lt;input class="form-check-input"
+                                       type="radio"
+                                       name="gender"&gt;
+
+                                &lt;label class="form-check-label"&gt;
+                                    Male
+                                &lt;/label&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class="form-check form-check-inline"&gt;
+                                &lt;input class="form-check-input"
+                                       type="radio"
+                                       name="gender"&gt;
+
+                                &lt;label class="form-check-label"&gt;
+                                    Female
+                                &lt;/label&gt;
+                            &lt;/div&gt;
+
+                        &lt;/div&gt;
+
+
+                        &lt;div class="mb-3"&gt;
+
+                            &lt;label class="form-label"&gt;
+                                Message
+                            &lt;/label&gt;
+
+                            &lt;textarea class="form-control"
+                                      rows="4"
+                                      placeholder="Write your message"&gt;&lt;/textarea&gt;
+
+                        &lt;/div&gt;
+
+
+                        &lt;button type="submit"
+                                class="btn btn-success"&gt;
+                            Register Now
+                        &lt;/button&gt;
+
+                        &lt;button type="reset"
+                                class="btn btn-secondary"&gt;
+                            Reset
+                        &lt;/button&gt;
+
+                    &lt;/form&gt;
+
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+
+    &lt;/section&gt;
+
+
+    &lt;!-- Contact Section --&gt;
+    &lt;section id="contact" class="py-5"&gt;
+
+        &lt;div class="container text-center"&gt;
+
+            &lt;h2 class="section-title"&gt;
+                Contact Us
+            &lt;/h2&gt;
+
+            &lt;p&gt;
+                Email: activities@uetmardan.edu.pk
+            &lt;/p&gt;
+
+            &lt;p&gt;
+                UET Mardan, Khyber Pakhtunkhwa, Pakistan
+            &lt;/p&gt;
+
+        &lt;/div&gt;
+
+    &lt;/section&gt;
+
+
+    &lt;!-- Complete Source Code Section --&gt;
+    &lt;section class="container-fluid bg-dark text-white py-5"&gt;
+
+        &lt;div class="container"&gt;
+
+            &lt;h2 class="text-center mb-4"&gt;
+                Complete Source Code
+            &lt;/h2&gt;
+
+            &lt;p class="text-center text-white-50"&gt;
+                The complete HTML, CSS and Bootstrap code used
+                to create this website.
+            &lt;/p&gt;
+
+            &lt;!-- The complete code is displayed here --&gt;
+
+        &lt;/div&gt;
+
+    &lt;/section&gt;
+
+
+    &lt;!-- Footer --&gt;
+    &lt;footer class="bg-success text-white text-center py-3"&gt;
+
+        &lt;p class="mb-0"&gt;
+            ©️ 2026 UET Mardan Student Activities Portal
+        &lt;/p&gt;
+
+    &lt;/footer&gt;
+
+
+    &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+    </pre>
+</section>
+</html>
